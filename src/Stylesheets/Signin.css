@@ -1,0 +1,42 @@
+.bg-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(/src/Images/bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.card {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    padding: 20px;
+}
+
+input{
+    width: 100%;
+    padding: 0.5rem 1rem;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    outline: none;
+    font-size: 1rem;
+}
+
+.passwordfield{
+    margin-bottom: 1em;
+}
+
+.link{
+   
+    text-decoration: none;
+}
+.submit{
+    width: 100%;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.form{
+    position: relative;
+}

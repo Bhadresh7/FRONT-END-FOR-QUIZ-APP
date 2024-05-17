@@ -1,0 +1,7 @@
+.toggle {
+    position: absolute;
+    right: 10px; /* Adjust as needed */
+    top: 60%; /* Adjust to vertically center */
+    transform: translateY(-50%);
+    cursor: pointer;
+}
